@@ -1,0 +1,68 @@
+body
+{
+    background-color: black;
+    padding-top: 50px;
+}
+
+#title
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.image-panel
+{
+    position: relative;
+    display: block;
+    margin: 0;
+    height: 180px;
+    width: 180px;
+    
+    margin-top: 70px;
+    transform: translate(-50%, 0)
+}
+
+#disk-image-panel
+{
+    left: 50%;
+    margin-right:-50%;
+}
+
+#flower-image-panel
+{
+    left: 50%;
+    margin-right:-50%;
+}
+
+#disk-image
+{
+    height: 180px;
+    width: 180px;
+    background-image: url("assets/Scheibe_Spritesheet@2x.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: 0px 0px;
+}
+
+#flower-image
+{
+    height: 180px;
+    width: 180px;
+    background-image: url("assets/Flower2@2x.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: 0px 0px;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+#controls-panel
+{
+    margin-top: 50px;
+    text-align: center;
+}
